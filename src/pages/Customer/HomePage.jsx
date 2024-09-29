@@ -21,7 +21,7 @@ const HomePage = () => {
             </Col>
           </Row>
 
-          <Row className="banner-image mt-5">
+          <Row className="banner-image d-none d-lg-flex alingn-items-center mt-5">
             <Col lg={5}>
               <img src="../../src/assets/img-hero1.png" alt="" />
             </Col>
@@ -39,6 +39,12 @@ const HomePage = () => {
                   <img src="../../src/assets/img-hero4.png" alt="" />
                 </Col>
               </Row>
+            </Col>
+          </Row>
+
+          <Row className="banner-image mt-3 d-lg-none d-block align-items-center">
+            <Col>
+              <img src="../src/assets/img-hero1.png" alt="" />
             </Col>
           </Row>
         </Container>
