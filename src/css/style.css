@@ -1,0 +1,386 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* utilities */
+* {
+    font-family: dm sans;
+}
+
+body .btn-teal {
+    background-color: var(--bs-teal);
+    color: white;
+}
+
+body .btn-teal:hover {
+    border: 1px solid var(--bs-teal);
+    color: var(--bs-teal);
+}
+
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 550;
+}
+
+/* body {
+    margin-bottom: 100px !important;
+} */
+
+/* navbar */
+.navbar-brand img {
+    width: 120px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 35px;
+}
+
+.navbar .dropdown-toggle {
+    background: none;
+    border: none;
+    color: var(--bs-secondary);
+}
+
+.navbar-nav .btn-teal {
+    background-color: var(--bs-teal);
+    color: white;
+    width: 150px;
+}
+
+.navbar-nav .btn-teal:hover {
+    border: 1px solid var(--bs-teal);
+    color: var(--bs-teal);
+}
+
+/* banner */
+#banner {
+    margin-top: 100px;
+}
+#banner .banner-teks {
+    text-align: right;
+}
+
+#banner .banner-image img {
+    width: 100%;
+}
+
+/* ruangan */
+#ruangan .btn {
+    margin-right: 5px;
+}
+
+#ruangan .card {
+    width: 100%;
+    border: none;
+    margin-top: 30px;
+}
+
+#ruangan .card a {
+    text-decoration: none;
+    color: black;
+}
+
+#ruangan .card a:hover {
+    text-decoration: underline 1px var(--bs-teal);
+    color: black;
+}
+
+/* kontak */
+#kontak .bg-kontak {
+    background-image: url(../assets/img-kontak.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    height: 350px;
+    padding: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+/* login */
+#login img {
+    width: 120px;
+}
+
+#login a {
+    text-decoration: none;
+    color: var(--bs-teal);
+}
+
+#login .form-label {
+    margin-top: 10px;
+    font-weight: 550;
+}
+
+/* register */
+#register img {
+    width: 120px;
+}
+
+#register a {
+    text-decoration: none;
+    color: var(--bs-teal);
+}
+
+#register .form-label {
+    margin-top: 10px;
+    font-weight: 550;
+}
+
+#form-pesan label {
+    font-weight: 550;
+    margin-top: 15px;
+}
+
+#payment, #order {
+    margin-top: 100px;
+}
+
+#payment label {
+    font-weight: 550;
+    margin-top: 15px;
+}
+
+
+.title {
+    text-transform: uppercase;
+    font-weight: 550;
+    letter-spacing: 5px;
+}
+
+.kode-reservasi {
+    background-color: var(--bs-warning);
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sukses {
+    margin-top: 50px;
+}
+
+#sukses .bg-kode-reservasi {
+    background-color: #FFF6E4;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#sukses .back-home {
+    text-decoration: none;
+    color: var(--bs-teal);
+}
+
+#sukses .back-home:hover {
+    text-decoration: underline;
+    color: var(--bs-teal);
+}
+
+#order label {
+    font-weight: 550;
+    margin-bottom: 5px;
+}
+
+#order .kode-reservasi {
+    width: 150px;
+}
+
+/* footer */
+footer a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline var(--bs-teal);
+}
+
+/* mobile style */
+@media (max-width: 992px) {
+
+    /* navbar */
+    .navbar-brand img {
+        width: 120px;
+    }
+
+    .navbar-nav {
+        margin-left: auto;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 0;
+    }
+
+    .navbar .dropdown-toggle {
+        background: none;
+        border: none;
+        color: var(--bs-secondary);
+    }
+
+    .navbar-nav .btn-teal {
+        background-color: var(--bs-teal);
+        color: white;
+        width: 100%;
+    }
+
+    .navbar-nav .btn-teal:hover {
+        border: 1px solid var(--bs-teal);
+        color: var(--bs-teal);
+    }
+
+    /* banner */
+    #banner {
+        text-align: center;
+    }
+    #banner .banner-teks {
+        text-align: center;
+    }
+
+    #banner .banner-image img {
+        width: 100%;
+    }
+    
+
+    /* ruangan */
+    #ruangan .btn {
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+    #ruangan .card {
+        width: 100%;
+        border: none;
+        margin-top: 30px;
+    }
+
+    /* kontak */
+    #kontak .bg-kontak {
+        background-image: url(../assets/img-kontak.png);
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        height: 350px;
+        padding: 50px;
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+
+    /* login */
+    #login img {
+        width: 120px;
+    }
+
+    #login a {
+        text-decoration: none;
+        color: var(--bs-teal);
+    }
+
+    #login .form-label {
+        margin-top: 10px;
+        font-weight: 550;
+    }
+
+    /* register */
+    #register img {
+        width: 120px;
+    }
+
+    #register a {
+        text-decoration: none;
+        color: var(--bs-teal);
+    }
+
+    #register .form-label {
+        margin-top: 10px;
+        font-weight: 550;
+    }
+
+    #form-pesan label {
+        font-weight: 550;
+        margin-top: 15px;
+    }
+
+    #fasilitas .btn {
+        margin-top: 5px;
+    }
+
+    #form-pesan .btn {
+        width: 100% !important;
+    }
+
+    #payment label {
+        font-weight: 550;
+        margin-top: 15px;
+    }
+
+
+    .title {
+        text-transform: uppercase;
+        font-weight: 550;
+        letter-spacing: 5px;
+    }
+
+    .kode-reservasi {
+        background-color: var(--bs-warning);
+        width: 200px;
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #sukses .bg-kode-reservasi {
+        background-color: #FFF6E4;
+        padding: 25px;
+        border-radius: 10px;
+    }
+
+    #sukses .back-home {
+        text-decoration: none;
+        color: var(--bs-teal);
+    }
+
+    #sukses .back-home:hover {
+        text-decoration: underline;
+        color: var(--bs-teal);
+    }
+
+    #order label {
+        font-weight: 550;
+        margin-bottom: 5px;
+    }
+
+    #order .kode-reservasi {
+        width: 150px;
+    }
+
+    /* footer */
+    footer a {
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+
+    footer h5 {
+        margin-top: 10px;
+    }
+
+    footer a:hover {
+        text-decoration: underline var(--bs-teal);
+    }
+}
